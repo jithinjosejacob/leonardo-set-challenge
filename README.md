@@ -23,7 +23,7 @@ Time has been spend mostly on figuring out `When I click “Start to Create”
 
 Main container with START TO CREATE button has been placed multiple times in the DOM and both are hidden
 
-This could be a frontend issue , where this layout is repeated, need to check with frontend devs.
+This could be a frontend issue , where this layout is repeated and hidden, need to check with frontend devs.
 
 I am able to implement one block of Given When Then only because of above issue.
 
