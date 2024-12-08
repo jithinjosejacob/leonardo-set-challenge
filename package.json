@@ -1,0 +1,23 @@
+{
+  "name": "leonardo-set-challenge",
+  "version": "1.0.0",
+  "description": "Software Engineer in Test Challenge Leonardo.ai",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env ENV=DEV cucumber-js --config=config/cucumber.ts",
+    "test:failed": "cucumber-js -p rerun @rerun.txt"
+  },
+  "keywords": [],
+  "author": "Jithin Jose Jacob",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.0.1",
+    "@playwright/test": "1.49.0",
+    "@types/fs-extra": "^11.0.4",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.2.0",
+    "multiple-cucumber-html-reporter": "^3.3.0",
+    "ts-node": "^10.9.1"
+  }
+}
